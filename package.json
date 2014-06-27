@@ -1,0 +1,27 @@
+{
+  "name": "tessel-build",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tessel-build": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beardtree/tessel-build.git"
+  },
+  "author": "Dan Kaplun <dan@beardtree.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beardtree/tessel-build/issues"
+  },
+  "homepage": "https://github.com/beardtree/tessel-build",
+  "dependencies": {
+    "gulp": "^3.8.3",
+    "optimist": "^0.6.1",
+    "run-sequence": "^0.3.6"
+  }
+}
